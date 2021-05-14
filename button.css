@@ -1,0 +1,345 @@
+.btn {
+  outline: none;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 10px 15px;
+  border: none;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 2px;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-block {
+  display: block;
+  width: 100%;
+}
+
+.btn-dark {
+  background-color: black;
+  color: white;
+  -webkit-box-shadow: 2px 2px 2px 1px transparent;
+          box-shadow: 2px 2px 2px 1px transparent;
+}
+
+.btn-dark-outline {
+  color: black;
+  background-color: white;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: 2px solid black;
+}
+
+.btn-dark-outline:hover {
+  color: white;
+  background-color: black;
+  -webkit-box-shadow: 2px 2px 2px 1px transparent;
+          box-shadow: 2px 2px 2px 1px transparent;
+}
+
+.btn-sm {
+  padding: 8px;
+  font-size: 12px;
+}
+
+.btn-md {
+  padding: 10px 15;
+}
+
+.btn-lg {
+  padding: 15px 20px;
+}
+
+.btn-primary {
+  background-color: dodgerblue;
+  color: white;
+  -webkit-box-shadow: 2px 2px 2px 1px #cee7ff;
+          box-shadow: 2px 2px 2px 1px #cee7ff;
+}
+
+.btn-primary-outline {
+  color: dodgerblue;
+  background-color: white;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: 2px solid dodgerblue;
+}
+
+.btn-primary-outline:hover {
+  color: white;
+  background-color: dodgerblue;
+  -webkit-box-shadow: 2px 2px 2px 1px #cee7ff;
+          box-shadow: 2px 2px 2px 1px #cee7ff;
+}
+
+.btn-sm {
+  padding: 8px;
+  font-size: 12px;
+}
+
+.btn-md {
+  padding: 10px 15;
+}
+
+.btn-lg {
+  padding: 15px 20px;
+}
+
+.btn-success {
+  background-color: blueviolet;
+  color: white;
+  -webkit-box-shadow: 2px 2px 2px 1px #e6e6e6;
+          box-shadow: 2px 2px 2px 1px #e6e6e6;
+}
+
+.btn-success-outline {
+  color: blueviolet;
+  background-color: white;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: 2px solid blueviolet;
+}
+
+.btn-success-outline:hover {
+  color: white;
+  background-color: blueviolet;
+  -webkit-box-shadow: 2px 2px 2px 1px #e6e6e6;
+          box-shadow: 2px 2px 2px 1px #e6e6e6;
+}
+
+.btn-sm {
+  padding: 8px;
+  font-size: 12px;
+}
+
+.btn-md {
+  padding: 10px 15;
+}
+
+.btn-lg {
+  padding: 15px 20px;
+}
+
+.btn-danger {
+  background-color: red;
+  color: white;
+  -webkit-box-shadow: 2px 2px 2px 1px #e0c5ff;
+          box-shadow: 2px 2px 2px 1px #e0c5ff;
+}
+
+.btn-danger-outline {
+  color: red;
+  background-color: white;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: 2px solid red;
+}
+
+.btn-danger-outline:hover {
+  color: white;
+  background-color: red;
+  -webkit-box-shadow: 2px 2px 2px 1px #e0c5ff;
+          box-shadow: 2px 2px 2px 1px #e0c5ff;
+}
+
+.btn-sm {
+  padding: 8px;
+  font-size: 12px;
+}
+
+.btn-md {
+  padding: 10px 15;
+}
+
+.btn-lg {
+  padding: 15px 20px;
+}
+
+.btn-greyed {
+  background-color: gray;
+  color: white;
+  -webkit-box-shadow: 2px 2px 2px 1px transparent;
+          box-shadow: 2px 2px 2px 1px transparent;
+}
+
+.btn-greyed-outline {
+  color: gray;
+  background-color: white;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: 2px solid gray;
+}
+
+.btn-greyed-outline:hover {
+  color: white;
+  background-color: gray;
+  -webkit-box-shadow: 2px 2px 2px 1px transparent;
+          box-shadow: 2px 2px 2px 1px transparent;
+}
+
+.btn-sm {
+  padding: 8px;
+  font-size: 12px;
+}
+
+.btn-md {
+  padding: 10px 15;
+}
+
+.btn-lg {
+  padding: 15px 20px;
+}
+
+.btn-loading {
+  background-color: rgba(0, 0, 0, 0.067);
+  color: gray;
+  -webkit-box-shadow: 2px 2px 2px 1px transparent;
+          box-shadow: 2px 2px 2px 1px transparent;
+}
+
+.btn-loading {
+  background-color: rgba(0, 0, 0, 0.067);
+  color: gray;
+  cursor: not-allowed;
+  -webkit-box-shadow: 2px 2px 2px 1px transparent;
+          box-shadow: 2px 2px 2px 1px transparent;
+}
+
+.btn-loading-outline {
+  color: rgba(0, 0, 0, 0.067);
+  background-color: gray;
+  -webkit-box-shadow: transparent;
+          box-shadow: transparent;
+  border: 2px solid rgba(0, 0, 0, 0.067);
+}
+
+.btn-loading-outline:hover {
+  color: gray;
+  background-color: rgba(0, 0, 0, 0.067);
+  -webkit-box-shadow: 2px 2px 2px 1px transparent;
+          box-shadow: 2px 2px 2px 1px transparent;
+}
+
+.btn-loading-outline {
+  background-color: rgba(0, 0, 0, 0.067);
+  color: gray;
+  cursor: not-allowed;
+  -webkit-box-shadow: 2px 2px 2px 1px transparent;
+          box-shadow: 2px 2px 2px 1px transparent;
+}
+
+.btn-sm {
+  padding: 8px;
+  font-size: 12px;
+}
+
+.btn-md {
+  padding: 10px 15;
+}
+
+.btn-lg {
+  padding: 15px 20px;
+}
+
+.btn-icon {
+  outline: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 2px;
+  text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.btn-icon span {
+  margin-left: 20px;
+}
+
+.btn-icon-sm {
+  padding: 8px;
+  font-size: 12px;
+}
+
+.btn-icon-sm span {
+  margin-left: 12px;
+}
+
+.btn-icon-md {
+  padding: 10px 15px;
+}
+
+.btn-icon-lg {
+  padding: 15px 20px;
+}
+
+.btn-icon-lg span {
+  margin-left: 30px;
+}
+
+.btn-icon-primary {
+  background-color: dodgerblue;
+  color: white;
+  -webkit-box-shadow: 2px 2px 2px 1px #cee7ff;
+          box-shadow: 2px 2px 2px 1px #cee7ff;
+}
+
+.btn-icon-primary:hover {
+  background-color: #0071e2;
+}
+
+.btn-icon-primary:focus {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.btn-icon-greyed {
+  background-color: gray;
+  color: white;
+  -webkit-box-shadow: 2px 2px 2px 1px #e6e6e6;
+          box-shadow: 2px 2px 2px 1px #e6e6e6;
+}
+
+.btn-icon-greyed:hover {
+  background-color: #a0a0a0;
+}
+
+.btn-icon-greyed:focus {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.btn-icon-success {
+  background-color: blueviolet;
+  color: white;
+  -webkit-box-shadow: 2px 2px 2px 1px #e0c5ff;
+          box-shadow: 2px 2px 2px 1px #e0c5ff;
+}
+
+.btn-icon-success:hover {
+  background-color: #8400ff;
+}
+
+.btn-icon-success:focus {
+  -webkit-transform: scale(0.98);
+          transform: scale(0.98);
+}
+
+.btn-icon-loading {
+  background-color: rgba(0, 0, 0, 0.067);
+  color: gray;
+  cursor: not-allowed;
+}
+
+.btn-icon-loading:hover {
+  background-color: rgba(0, 0, 0, 0.067);
+}
+
+.btn-icon-dark {
+  background-color: black;
+  color: white;
+}
+/*# sourceMappingURL=styles.css.map */
